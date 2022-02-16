@@ -1,3 +1,5 @@
+<lokalna implementacija git-a>
+
 1. git init // pozivamo - pravimo git u folder-u
 
 git status // pokazuje status u working directory-u(folder-u)
@@ -10,4 +12,10 @@ git rm -- cached <file> //  ako zelimo da izbacimo fajl nakon sto smo ga add, al
 
 3. git commit -m 'Complete Chapter 1' // uvijek koristit sadasnje (present) vrijeme u imenu- poruci (-m 'poruka')
 
-4. git add . // dodajemo sve nepoznate fajlove u folder-u git-u
+git add . // dodajemo sve nepoznate i promijenjene fajlove u folder-u git-u
+
+git diff chapter3.txt // pokazuje status fajla
+
+git checkout <ime_fajla> // vracamo fajl u prijasnje stanje
+
+
