@@ -14,8 +14,12 @@ git rm -- cached <file> //  ako zelimo da izbacimo fajl nakon sto smo ga add, al
 
 git add . // dodajemo sve nepoznate i promijenjene fajlove u folder-u git-u
 
-git diff chapter3.txt // pokazuje status fajla
+git diff chapter3.txt // pokazuje koje su promijene izvrsene u fajlu
 
-git checkout <ime_fajla> // vracamo fajl u prijasnje stanje
+4. git checkout <ime_fajla> // vracamo fajl u prijasnje stanje
+
+5.
+
+
 
 
