@@ -18,8 +18,10 @@ git diff chapter3.txt // pokazuje koje su promijene izvrsene u fajlu
 
 4. git checkout <ime_fajla> // vracamo fajl u prijasnje stanje
 
-5.
+<gitHub implementacija> <dodavanje projekta na internet>
 
+1. git remote add origin <link>
 
+2. git push -u origin master
 
 
