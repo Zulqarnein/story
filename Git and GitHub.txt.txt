@@ -1,0 +1,54 @@
+<lokalna implementacija git-a>
+
+1. git init // pozivamo - pravimo git u folder-u
+
+git status // pokazuje status u working directory-u(folder-u)
+
+2. git add chapter1.txt // dodajemo chapter1.txt git-u
+
+git status // sad pokazuje da smo dodali fajl u git
+
+git rm -- cached <file> //  ako zelimo da izbacimo fajl nakon sto smo ga add, ali prije commit-a 
+
+3. git commit -m 'Complete Chapter 1' // uvijek koristit sadasnje (present) vrijeme u imenu- poruci (-m 'poruka')
+
+git add . // dodajemo sve nepoznate i promijenjene fajlove u folder-u git-u
+
+git diff chapter3.txt // pokazuje koje su promijene izvrsene u fajlu
+
+4. git checkout <ime_fajla> // vracamo fajl u prijasnje stanje
+
+<gitHub implementacija> <dodavanje projekta na internet>
+
+1. git remote add origin <link>
+
+2. git push -u origin master
+
+<git Ignore>
+
+1. git rm --cached -r .   <oduzimamo sve fajlove nakon sto smo koristili add .>
+
+2. .gitignore fajl // u njemu pisemo fajlove koje ne zelimo commitat git-u
+
+// koristeci # pravimo komentar
+
+// koristexi *.txt nece uzeti niti jedan fajl koji je .txt formata
+
+<git clone>
+
+1.git clone <link>
+
+
+<<Branching>>
+
+1.git branch <name>  // dodajemo granu  projektu
+
+2. git branch // pokazuje koje grane u projektu imamo (gdje je zvjezdica tu smo trenutno)
+
+3. git checkout <name> // prelazimo u drugu granu gdje mjenjamo fajlove neovisno o drugim granama (isti fajlovi ostaju)
+
+
+
+
+
+
