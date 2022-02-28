@@ -24,4 +24,31 @@ git diff chapter3.txt // pokazuje koje su promijene izvrsene u fajlu
 
 2. git push -u origin master
 
+<git Ignore>
+
+1. git rm --cached -r .   <oduzimamo sve fajlove nakon sto smo koristili add .>
+
+2. .gitignore fajl // u njemu pisemo fajlove koje ne zelimo commitat git-u
+
+// koristeci # pravimo komentar
+
+// koristexi *.txt nece uzeti niti jedan fajl koji je .txt formata
+
+<git clone>
+
+1.git clone <link>
+
+
+<<Branching>>
+
+1.git branch <name>  // dodajemo granu  projektu
+
+2. git branch // pokazuje koje grane u projektu imamo (gdje je zvjezdica tu smo trenutno)
+
+3. git checkout <name> // prelazimo u drugu granu gdje mjenjamo fajlove neovisno o drugim granama (isti fajlovi ostaju)
+
+
+
+
+
 
